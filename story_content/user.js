@@ -2,7 +2,7 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5bm1XjMm7uc":
+      case "6ESfOPsvUM3":
         Script1();
         break;
   }
@@ -10,10 +10,9 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  var audio = document.getElementById('bgsong')
-audio.src="musikku.mp3";
+  var audio = document.getElementById('bgSong');
+audio.src="musik.mp3";
 audio.load();
 audio.play();
-audio.volume=0.3;
 }
 
